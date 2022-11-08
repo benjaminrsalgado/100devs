@@ -24,15 +24,31 @@ h1{
 /******************************************************/
 /*  Body Part
 /******************************************************/
-body{
+.first-part{
     display: flex;
     flex-direction: center;
     gap: 25px;
     padding-left: 19px;
 }
 
+.the-last-part{
+    display: flex;
+    align-content: flex-end;
+    padding-left: 175px;
+}
+
 /******************************************************/
 /*  Color Text
 /******************************************************/
 
+.colortypogrphy{
+    color: #B0B0B0;
+}
 
+#color-orange{
+    color: #FFAA46;
+}
+
+.subtitle-color{
+    color: #E4AA56;
+}
