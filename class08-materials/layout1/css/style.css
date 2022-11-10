@@ -33,8 +33,8 @@ h1{
 
 .the-last-part{
     display: flex;
-    align-content: flex-end;
     padding-left: 175px;
+    gap: 35px;
 }
 
 /******************************************************/
@@ -51,4 +51,17 @@ h1{
 
 .subtitle-color{
     color: #E4AA56;
+}
+
+/******************************************************/
+/*  Lines of the text
+/******************************************************/
+
+.line{
+    border-bottom: solid 2px #B0B0B0;
+    padding-bottom: 7px;
+}
+
+.top-line{
+    border-top: solid 3px #B0B0B0;
 }
