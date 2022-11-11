@@ -63,5 +63,10 @@ h1{
 }
 
 .top-line{
-    border-top: solid 3px #B0B0B0;
+    border-top: solid 2px #B0B0B0;
+}
+
+.icono{
+    width: 20px;
+    height: 18px;
 }
