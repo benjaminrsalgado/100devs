@@ -3,3 +3,23 @@ nav{
     flex-direction: row;
     
 }
+
+.main-left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.main-right{
+    display: flex;
+
+    flex-wrap: wrap;
+}
+
+.main-principal{
+    display: flex;
+}
+
+.main-right section{
+    width: 50%;
+}
