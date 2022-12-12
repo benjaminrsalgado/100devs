@@ -69,10 +69,20 @@ margin-left: 10px;
 .right-section{
     display: flex;
     margin-left: 20px;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .americans{
     background-image: url(Americans.jpeg);
+    width: 300px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+}
+
+.productivity{
+    background-image: url(productivity.jpeg);
     width: 300px;
     height: 150px;
     background-position: center;
