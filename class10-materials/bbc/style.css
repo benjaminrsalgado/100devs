@@ -48,7 +48,7 @@ nav{
 }
 
 .text-relative{
-position: #relative;
+position: #absolute;
 top: 163px;
 width: 500px;
 color: #F8F7F7;
@@ -61,7 +61,7 @@ margin-left: 10px;
     height: 300px;
     width: 500px;
     background-size: cover;
-    position: #absolute;
+    position: #relative;
 }
 
 /*This is the Main Part but is the right side*/
@@ -76,31 +76,50 @@ margin-left: 10px;
 .americans{
     background-image: url(Americans.jpeg);
     width: 250px;
-    height: 150px;
+    height: 140px;
     background-position: center;
     background-size: cover;
+    color: #F8F7F7;
 }
 
 .productivity{
     background-image: url(productivity.jpeg);
     width: 250px;
-    height: 150px;
+    height: 140px;
     background-position: center;
     background-size: cover;
+    color: #F8F7F7;
 }
 
 .vaccinate{
     background-image: url(vaccinate.jpeg);
     width: 250px;
-    height: 150px;
+    height: 140px;
     background-position: center;
     background-size: cover;
+    color: #F8F7F7;
 }
 
 .singer{
     background-image: url(singer.jpeg);
     width: 250px;
-    height: 150px;
+    height: 140px;
     background-position: center;
     background-size: cover;
+    color: #F8F7F7;
 }
+
+/*This is the bottom side*/
+
+#bottom-box{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 0px;
+}
+
+#inside-bottom{
+    display: flex;
+    margin-top: 50px;
+    
+}
+
