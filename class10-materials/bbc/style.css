@@ -2,6 +2,7 @@ body{
     box-sizing: border-box;
 
 }
+
 /*This is the navegation part*/
 
 .logo{
@@ -55,25 +56,26 @@ padding-right: 20px;
 margin-left: 10px;
 }
 
+
+/*This is the Main Part but is the right side*/
+
 .left-section{
     background-image: url(Israel.jpeg) ;
     height: 300px;
     width: 500px;
     background-size: cover;
-    
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
 }
 
-/*This is the Main Part but is the right side*/
-
 .right-section{
-    display: flex;
     margin-left: 20px;
     flex-wrap: wrap;
     gap: 10px;
     display:flex ;
     margin-bottom: 0px;
-    justify-content: end;
-    align-items: flex-end;
+    justify-content: flex-end;
     font-size: 10px;
 }
 
@@ -86,7 +88,7 @@ margin-left: 10px;
     color: #F8F7F7;
     display: flex;
     flex-direction: column;
-    
+    justify-content: flex-end;
     font-size: 10px;
 }
 
@@ -98,10 +100,11 @@ margin-left: 10px;
     background-position: center;
     background-size: cover;
     color: #F8F7F7;
-    display:flex ;
-    justify-content: flex-start;
-    align-items: flex-end;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
     font-size: 10px;
+    
 }
 
 .vaccinate{
@@ -111,6 +114,11 @@ margin-left: 10px;
     background-position: center;
     background-size: cover;
     color: #F8F7F7;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    font-size: 10px;
+    
 }
 
 .singer{
@@ -120,6 +128,14 @@ margin-left: 10px;
     background-position: center;
     background-size: cover;
     color: #F8F7F7;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    font-size: 10px;
+}
+
+.right-section  h2, .right-section span{
+    padding-left: 11px;
 }
 
 /*This is the bottom side*/
