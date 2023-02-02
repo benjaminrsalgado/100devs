@@ -30,4 +30,3 @@ function added() {
   total = total + 10
   document.querySelector('#placeToPutResult').innerHTML = total
 }
-
