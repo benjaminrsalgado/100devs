@@ -4,7 +4,12 @@
 document.querySelector('#yell').addEventListener('click', run)
 
 function run(){
-    const fName = document.querySelector('#firstName').value
-
+    console.log('Hello World')
     //Get value out of the input 
+    let pumpking = document.querySelector('#firstName').value
+    //Const fName= document.querySelector('#firstName').value
+    pumpking = pumpking *9/5 + 32
+    //Convert the value 
+    document.querySelector ('PlaceToYell').innerHTML = pumpking
+    //show the value to user 
 }
