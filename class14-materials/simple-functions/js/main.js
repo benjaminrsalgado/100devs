@@ -16,4 +16,4 @@ function divideTwoNumbers(a, b) {
     return a / b;
 }
 
-console.log (divideTwoNumbers: (12, 16) )
+console.log (divideTwoNumbers: (12, 16))
