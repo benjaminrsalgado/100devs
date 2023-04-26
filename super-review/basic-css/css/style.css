@@ -1,0 +1,36 @@
+h1{
+    background-color: gold;
+    color: blue;
+    text-decoration: underline;
+}
+
+h2{
+    color: purple;
+    font-size: 25px;
+    font-weight: bold;
+    border: 2px solid orange;
+}
+
+section{
+    width: 50%;
+    height: 200px;
+    background-color: gray;
+    color: white;
+    border: 3px solid black;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    border:2px solid lightslategray;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+footer h2{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid orange;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
