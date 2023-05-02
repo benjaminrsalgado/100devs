@@ -49,3 +49,19 @@ section {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+@media all and (max-width: 600px) {
+     section {
+         background-color: blue;
+     }
+     .bottom{
+          display: none;
+     }
+}
+@media (min-width:601px) and (max-width: 900px) {
+     section {
+         background-color: red;
+     }
+     .bottom{
+          display: none;
+     }
+}
