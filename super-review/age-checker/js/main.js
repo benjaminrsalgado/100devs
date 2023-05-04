@@ -24,5 +24,6 @@ if (age < 30) {
 
 //--- Harder
 //On click of the h1
+
 //Take the value from the input
 //Place the result of the conditional in the paragraph
