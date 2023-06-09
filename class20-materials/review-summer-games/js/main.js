@@ -1,7 +1,8 @@
 //Create a function that takes in an array of numbers. Multiply each number together and alert the product.
 
-function sum(arr) {
-	alert(arr.reduce((result, x) => result * x));
+function multiNumsInArr(arr) {
+	let product = 1
+	arr.forEach( num => product *= num )
+	alert(product)
 }
-
-sum([4, 5, 3]);
+multiNumsInArr(10,12,13)
