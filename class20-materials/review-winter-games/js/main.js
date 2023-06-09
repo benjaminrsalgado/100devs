@@ -11,3 +11,5 @@ function takes (arr){
 }
 
 console.log(takes([3,4,5,6,7]))
+
+//aquiel valor n va a sustituir con los valores (numeros ) que di, ademas de que cuando un valor si sea divisible entre dos se subira al que esta vacio en este caso let evens 
