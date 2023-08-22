@@ -6,15 +6,14 @@ function check() {
 
   //Conditionals go here
 
-  if (day === "Tuesday" || day === "Thursday"){
-  alert('class day!')
-  }else if(day === "tuesday" || day === "thursday") {
-  alert ('class day!')
-  }else if(day === "Saturday" || day === "Sunday") {
-  alert ('Weekend')
-  }else if(day === "saturday" || day === "sunday") {
-  alert ('Weekend')
-  }else{
-  alert('BORING')
-  }
+if ( day === "Monday" ||  day === "Tuesday"){
+  alert("surprise")
+}else if (day ==="Wendsday" || day === "Thuersday"){
+  alert("u can do it")
+}else if (day ==="Friday" ||day === "Saturday"){
+  alert("go, go" )
+}else{
+  ("so boring")
+}
+
 }
