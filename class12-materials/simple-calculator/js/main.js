@@ -9,24 +9,17 @@ document.querySelector('#plus').addEventListener('click', added)
 function makeZero() {
   total = 0
   document.querySelector('#placeToPutResult').innerText = total
-}
 
-function jumanji() {
-  total = total + 3
+}function jumanji(){
+  total = 1 
   document.querySelector('#placeToPutResult').innerText = total
-}
-
-function add9() {
-  total = total + 9
-  document.querySelector('#placeToPutResult').innerHTML = total
-}
-
-function sub2() {
-  total = total - 2
-  document.querySelector('#placeToPutResult').innerHTML = total
-}
-
-function added() {
-  total = total + 10
-  document.querySelector('#placeToPutResult').innerHTML = total
+}function add9 (){
+  total = -5
+  document.querySelector('#placeToPutResult').innerText = total
+}function sub2 (){
+  total = 3
+  document.querySelector('#placeToPutResult').innerText = total
+}function added (){
+  total = -8
+  document.querySelector('#placeToPutResult').innerText = total
 }
