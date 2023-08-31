@@ -18,3 +18,20 @@ function MakeSFCharacter (punch, kick, catchPhrase, specialMove){
 let fighter1 = new MakeSFCharacter ('stron', 'skinny', 'rubeus' '1.20')
 
 let fighter2 = new MakeSFCharacter ('super', 'skinny', 'adults' '1.70')
+
+
+// this is another clearly example using a lot of objects
+
+function Cake (top, flour, levels, event){
+    this.top = top
+    this.flour = flour
+    this.levels = levels
+    this.event = event
+    this.taunt = function () {
+    console.log (`i hope you like, my best wishes ${this.event}`)
+    }
+}
+
+let cake2 = new Cake ('cream', 'chocolate', '3 levels', 'birthday')
+
+let cake3 = new Cake ('chantilli', 'strawberry', '1 level' 'married')
