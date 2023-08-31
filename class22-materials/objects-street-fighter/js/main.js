@@ -28,7 +28,7 @@ function Cake (top, flour, levels, event){
     this.levels = levels
     this.event = event
     this.taunt = function () {
-    console.log (`i hope you like, my best wishes ${this.event}`)
+    console.log (`i hope you like, my best wishes to your ${this.event}`)
     }
 }
 
