@@ -1,6 +1,10 @@
 //Arrays
 
 //Create and array of numbers. Sum all of the numbers. Alert the sum.
+let arr [1,2,3,4,5,6,7]
+    const sum = arr.reduce ((acumulador, numero) => {
+        return acumulador + numero;
+    }, 0);
 
 //Create a function that takes in an array of numbers
 //Return a new array of numbers that is every original number squared
