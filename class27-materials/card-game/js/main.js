@@ -30,7 +30,7 @@ function drawTwo() {
       console.log(data) // Aquí vemos las cartas que obtuvimos
       // Mostramos las imágenes de las cartas en la pantalla como si fueran de dos jugadores
       document.querySelector('#player1').src = data.cards[0].image
-      document.querySelector('#player2').src = data.cards[1].image
+      document.querySelector('#player2').src = data.cards[1].image 
       // Se guardan las imagenes de los dos jugadores,peroo los valores de esas cartas se convierten en números y se almacenan en las variables player1Val y player2Val 
       let player1Val = converToNum(data.cards[0].value)
       let player2Val = converToNum(data.cards[1].value)
