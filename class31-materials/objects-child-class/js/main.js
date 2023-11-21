@@ -27,3 +27,45 @@ class Cat extends Animal{
 
 let simba = new Dog('Simba', 'Sheperd')
 let hola = new Cat('taylor', 'fenix')
+
+
+// this is another class
+
+class Animal (name){
+    constructor(name){
+    this._name = name 
+    }
+    get name(){
+        return this._name
+    }
+    speak(){
+        console.log(`${this._name} makes a sound`)
+    }
+    class dog extends Animal{
+        constructor(name, breed){
+            super(name)
+            this._breed = breed
+        }
+        get breed(){
+            return tis._breed
+        }
+        speak(){
+        super.speak()
+        console.log(`${this.name} barks`)
+        }
+    }
+}
+
+class  Cat extends Animals{
+    constructor(name, breed){
+        super(name)
+        this._breed = breed
+    }
+    get breed(){
+        return this._breed
+    }
+    speak(){
+        super.speak()
+        console.log(`${this.name} meows`)
+    }
+}
